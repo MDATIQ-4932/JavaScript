@@ -3,21 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>factarial</title>
+    <title>factorial</title>
 </head>
 <body>
-
     <script>
-        let input =parseInt(prompt("enter a number"));
+        let input=parseInt(prompt('enter a number'));
+        let factorial =1;
 
-        let factorial= 1;
+        for(let i=1;i<=input; i++){
 
-        for(let i=1; i <= input; i++){
             factorial*=i;
-        
-        }
-        document.write('factorial of this ' +"input "+ ' is ' +factorial);
 
+        }
+
+        document.write(factorial);
 
     </script>
     

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body>
+    <form action="">
+
+        <label for="">name</label> <br>
+        <input type="text" id="name"> <br>
+        <label for="">contact</label><br>
+        <input type="text" id="contact"> <br>
+        <label for="">remarks</label><br>
+        <textarea name="" id="remarks" rows="8" cols="30"></textarea> <br>
+        <label for="">gender</label> <br>
+        <input type="radio" id="gender" name="gender" value="male">male <br>
+        <input type="radio" id="gender" name="gender" value="male">female <br>
+
+        <label for="">course</label><br>
+        <input type="checkbox" name="course" value="NT">NT <br>
+        <input type="checkbox" name="course" value="DDD">DDD <br>
+        <input type="checkbox" name="course" value="IAD">IAD <br>
+        <input type="checkbox" name="course" value="ESAD">ESAD <br>
+
+        <label for="">location</label><br>
+        <select name="" id="location">
+            <option value="banani">banani</option> <br>
+            <option value="mirpur">mirpur</option> <br>
+            <option value="dhanmondi">dhanmondi</option> <br>
+        </select> <br> <br>
+
+        <input type="submit" value="submit" onclick="sendData()">
+
+    </form>
+
+    <script src="form.js"></script>
+</body>
+
+</html>

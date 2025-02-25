@@ -3,35 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>prime number
-
-    </title>
+    <title>prime number</title>
 </head>
 <body>
-<script>
-let userInput =parseInt(prompt('enter the number'));
-let count =0;
+    <script>
+        let userInput = prompt("Enter ur number to Check it is prime or not ");
+        let count = 0;
 
-for(let i=1; i<= userInput; i++){
+        for (let i = 1; i <= userInput; i++) {
 
-    if (userInput % 1 == 0){
-        count +=1;
-    }
-}
+            if (userInput % i == 0) {
+                count += 1;
+            }
+        }
 
-if(count == 2){
-    document.write(userInput+ 'is prime number');
-}
-
-else{
-    document.write(userInput+ 'is not prime number'); 
-}
-
-
-</script>
-
-
-
-    
+        if (count == 2) {
+            document.write("It is Prime Number")
+        }
+        else {
+            document.write("It is not Prime Number")
+        }
+    </script>
 </body>
+
+
 </html>
